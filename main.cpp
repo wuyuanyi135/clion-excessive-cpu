@@ -4,5 +4,5 @@
 int main() {
 
     auto a = xt::xarray<double>({1,2,3});
-//    auto b = xt::prod(a);
+    auto b = xt::prod(a);
 }
